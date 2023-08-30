@@ -3,9 +3,9 @@ import Links from "../ui/Links";
 
 export default function Header({ clicked, setClicked }) {
   return (
-    <header className="flex items-center justify-between bg-transparent px-5 py-4 shadow-md ">
+    <header className="flex items-center justify-between bg-transparent px-5 py-4 shadow-md  ">
       <div>
-        <img src="logo_2.webp" alt="simba_talents_logo" className="" />
+        <img src="cropped-v3.png" alt="simba_talents_logo" className="h-12" />
       </div>
       <div>
         <Links styles={"hidden items-center justify-between text-xl sm:flex"} />
