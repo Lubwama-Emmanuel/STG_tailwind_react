@@ -7,7 +7,7 @@ export default function HomeServices() {
         Curious? This is what we do
       </h2>
       <p className="mb-10 text-center text-xl">
-        Thses are highlighted services that we work on.
+        These are highlighted services that we work on.
       </p>
 
       <div className="m-auto grid max-w-6xl grid-cols-3 gap-16">
