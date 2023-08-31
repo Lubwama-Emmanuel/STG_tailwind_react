@@ -1,6 +1,8 @@
 import Hero from "../Components/Hero";
+import HomeServices from "../Components/HomeServices";
+import NewsLetter from "../Components/NewsLetter";
+import SlideShow from "../Components/SlideShow";
 import Vision from "../Components/Vision";
-import WhatWeDo from "../Components/WhatWeDo";
 import WhySimba from "../Components/WhySimba";
 
 export default function Homepage() {
@@ -9,7 +11,9 @@ export default function Homepage() {
       <Hero />
       <Vision />
       <WhySimba />
-      <WhatWeDo />
+      <HomeServices />
+      <SlideShow />
+      <NewsLetter />
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div
       style={{
-        clipPath: "polygon(0 1%, 100% 0%, 100% 84%, 0% 100%)",
+        clipPath: "polygon(0 0%, 100% 0%, 100% 85%, 0% 100%)",
       }}
       className="w-full bg-gradient-to-b  from-amber-100  to-stone-100"
     >
