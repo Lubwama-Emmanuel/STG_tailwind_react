@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "../Components/Header";
 import MobileMenu from "../Components/MobileMenu";
 import { useState } from "react";
+import NewsLetter from "./NewsLetter";
 
 export default function AppLayout() {
   const [clicked, setClicked] = useState(false);
@@ -14,6 +15,8 @@ export default function AppLayout() {
       <main>
         <Outlet />
       </main>
+
+      <NewsLetter />
     </div>
   );
 }
