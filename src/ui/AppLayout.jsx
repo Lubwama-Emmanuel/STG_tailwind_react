@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import MobileMenu from "../Components/MobileMenu";
 import { useState } from "react";
 import NewsLetter from "./NewsLetter";
+import Footer from "./Footer";
 
 export default function AppLayout() {
   const [clicked, setClicked] = useState(false);
@@ -17,6 +18,7 @@ export default function AppLayout() {
       </main>
 
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
