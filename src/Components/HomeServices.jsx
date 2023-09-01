@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function HomeServices() {
   return (
-    <section className="mb-20">
+    <section className="mb-10">
       <h2 className="mb-1 bg-gradient-to-r from-amber-950 to-amber-400 bg-clip-text text-center text-3xl font-semibold text-transparent">
         Curious? This is what we do
       </h2>
