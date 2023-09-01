@@ -4,7 +4,7 @@ export default function NewsLetter() {
   return (
     <section
       style={{
-        backgroundImage: `url(Email.png)`,
+        backgroundImage: `url(Email-1.png)`,
       }}
       className="bg-contain bg-fixed bg-left bg-no-repeat text-center sm:py-10"
     >
@@ -12,6 +12,7 @@ export default function NewsLetter() {
         <h2 className="mb-2 bg-clip-text text-2xl font-semibold uppercase hover:cursor-pointer hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-800 hover:text-transparent">
           Subscribe for our newsletter!
         </h2>
+        <div></div>
         <p className="mb-10">
           Sign up for our latest news, products and offers.
         </p>

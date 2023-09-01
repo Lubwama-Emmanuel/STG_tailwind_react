@@ -13,11 +13,14 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h3 className="mb-3 text-xl font-semibold capitalize">Quick links</h3>
+          <h3 className="text-xl font-semibold capitalize">Quick links</h3>
+          <div className="mb-3 h-[2px] w-16 bg-gradient-to-r from-amber-950 to-amber-400"></div>
+
           <Links />
         </div>
         <div>
-          <h3 className="mb-3 text-xl font-semibold capitalize">contact</h3>
+          <h3 className="text-xl font-semibold capitalize">contact</h3>
+          <div className="mb-3 h-[2px] w-16 bg-gradient-to-r from-amber-950 to-amber-400"></div>
           <div className="space-y-2">
             <p>
               Headquarters: <br></br> Fairfax, VA
@@ -33,9 +36,19 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="mb-3 text-xl font-semibold capitalize">
-            Connect with us
-          </h3>
+          <h3 className="text-xl font-semibold capitalize">Connect with us</h3>
+          <div className="mb-3 h-[2px] w-16 bg-gradient-to-r from-amber-950 to-amber-400"></div>
+          <div className="flex justify-start">
+            <svg className="hover:fill-amber-400 sm:h-8 sm:w-16">
+              <use xlinkHref="sprite.svg#icon-x"></use>
+            </svg>
+            <svg className="hover:fill-amber-400 sm:h-8 sm:w-16">
+              <use xlinkHref="sprite.svg#icon-instagram1"></use>
+            </svg>
+            <svg className="hover:fill-amber-400 sm:h-8 sm:w-16">
+              <use xlinkHref="sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 export default function Vision() {
   return (
-    <section className="sm:py-15 m-auto w-4/5 sm:grid sm:grid-cols-[2fr_1fr] sm:gap-10">
+    <section className="m-auto w-4/5 sm:grid sm:grid-cols-[2fr_1fr] sm:gap-10 sm:py-20">
       <div>
         <h3 className="mb-4 bg-gradient-to-r from-amber-400 to-amber-800 bg-clip-text text-3xl font-semibold text-transparent">
           Our vision

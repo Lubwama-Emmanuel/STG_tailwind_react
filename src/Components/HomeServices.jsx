@@ -21,7 +21,7 @@ export default function HomeServices() {
 
 function Service({ title, svg }) {
   return (
-    <div className="space-y-5 rounded-lg px-4 py-3 shadow-xl hover:shadow-2xl">
+    <div className="space-y-5 rounded-lg px-4 py-3 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl">
       <div className="">
         <img src={`${svg}.svg`} alt="vision" className="h-28" />
       </div>

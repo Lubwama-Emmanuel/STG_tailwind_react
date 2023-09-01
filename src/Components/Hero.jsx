@@ -10,10 +10,10 @@ export default function Hero() {
       style={{
         clipPath: "polygon(0 0%, 100% 0%, 100% 85%, 0% 100%)",
       }}
-      className="w-full bg-gradient-to-b  from-amber-100  to-stone-100 pb-5 sm:pb-10"
+      className="w-full bg-gradient-to-b from-amber-100  to-stone-100 pb-5 sm:pb-10"
     >
-      <div className="m-auto py-10 text-center sm:w-3/4 sm:py-20">
-        <h2 className="mb-5 text-2xl font-bold uppercase sm:mb-10 sm:mt-20 sm:text-6xl">
+      <div className="m-auto py-10 text-center sm:w-3/4 sm:py-14">
+        <h2 className="mb-5 text-2xl font-bold capitalize sm:mb-10 sm:mt-20 sm:text-6xl">
           looking to{" "}
           <span className="bg-gradient-to-r from-amber-400 to-amber-800 bg-clip-text text-transparent">
             tap{" "}
