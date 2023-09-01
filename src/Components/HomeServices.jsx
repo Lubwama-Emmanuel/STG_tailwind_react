@@ -10,7 +10,7 @@ export default function HomeServices() {
         These are highlighted services that we work on.
       </p>
 
-      <div className="m-auto grid max-w-6xl grid-cols-3 gap-16">
+      <div className="m-auto grid max-w-6xl gap-16 sm:grid-cols-3">
         <Service title={"software development"} svg={"software"} />
         <Service title={"Virtual Assistance"} svg={"virtual"} />
         <Service title={"research"} svg={"research"} />
